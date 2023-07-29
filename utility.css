@@ -1,0 +1,268 @@
+@media screen and (max-width:1230px) {
+   
+    .header-content {
+        justify-content: space-between;
+        width: 35vw;
+    }
+    .navbar a {
+        font-size: 1.2rem;
+        color: #fff;
+        margin-left: 100px;
+        cursor: default;
+        display: block;
+        line-height: 61px;
+    }
+
+    .navbar {
+        display: none;
+        position: absolute;
+        top: 5rem;
+        background: black;
+        width: 100%;
+        left: 0;
+    }
+
+    .navbar.menuactive {
+        display: block;
+    }
+    #menu-icon {
+        display: block;
+    }
+}
+
+@media screen and (max-width:1210px) {
+    .hug {
+        width: 12rem;
+        position: absolute;
+        right: 30rem;
+        top: 19rem;
+    }
+
+    .service-card {
+        width: 12rem;
+    }
+
+    #services .service-button h2 {
+        font-size: 25px;
+        width: 9rem;
+    }
+
+    .sunglass {
+        width: 12rem;
+        top: 5rem;
+        right: 1rem;
+    }
+
+    .god {
+        width: 12rem;
+        right: 1rem;
+        top: 26rem;
+    }
+
+    .service-container {
+        flex-wrap: wrap;
+    }
+
+    #portfolio {
+        height: 150vh;
+    }
+
+    .service-box {
+        margin: 10px 0;
+        width: 37vw;
+        height: 55vh;
+    }
+
+    #portfolio .service-box h2 {
+        margin: 10px 0;
+    }
+
+    #portfolio .service-box p {
+        margin: 40px 0;
+    }
+
+    .card {
+        width: 45vw;
+    }
+
+    .contact-form input {
+        width: 20rem;
+    }
+
+    .contact-form textarea {
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width:991px) {
+
+    #home {
+        flex-wrap: wrap-reverse;
+    }
+
+    .home-content {
+        text-align: center;
+    }
+
+    .home-content p {
+        margin: 0px;
+    }
+
+    .about-content h1,
+    h2,
+    p {
+        margin: 0 0;
+    }
+
+    .home-content h1 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    .home-content h2,
+    .media,
+    .button {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .image img {
+        width: 20vw;
+        height: 17vw;
+        margin-top: 60px;
+    }
+
+    .media {
+        margin: 20px 0;
+    }
+
+    #about {
+        flex-wrap: wrap;
+    }
+
+    .image {
+        margin: auto;
+    }
+
+    #about .image img {
+        margin: 0;
+    }
+
+    .about-content {
+        text-align: center;
+        padding: 0;
+    }
+
+    #about .btn {
+        margin-top: 1rem;
+    }
+
+    .bigcircle {
+        width: 15rem;
+        height: 15rem;
+        position: absolute;
+        top: 2rem;
+        left: 1rem;
+    }
+
+    .amazon {
+
+        left: 40%;
+        top: 36%;
+
+    }
+
+
+    .opera {
+
+        left: 40%;
+        top: -40%;
+
+    }
+
+    .insta {
+        left: 13rem;
+        top: -10rem;
+    }
+
+    .edge {
+
+        left: -12%;
+        top: -15%;
+    }
+
+    .messenger {
+        position: relative;
+        bottom: -1rem;
+        left: 6rem;
+        width: 4rem;
+    }
+
+    .blue {
+        top: 2rem;
+        left: 9rem;
+    }
+
+    .yellow {
+        top: 21vh;
+        right: 0rem;
+        left: 9rem;
+    }
+
+    #contact {
+        padding: 13% 10%;
+    }
+
+    .contact-form {
+        height: 65vh;
+        width: 68vw;
+        padding: 20px 0;
+    }
+
+    .input-box input {
+        padding: 3%;
+    }
+
+    .input-box textarea {
+        width: 50vw;
+        height: 37vh;
+
+    }
+}
+
+@media screen and (max-width:675px) {
+    .hug {
+        right: 25rem;
+        top: 21rem;
+    }
+
+    .container {
+        height: 80vh;
+    }
+
+    #contact {
+        flex-direction: column;
+    }
+
+    .contact-content {
+        width: 90vw;
+        align-items: center;
+        padding: 0;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:730px) {
+    .header-content{
+        width: 50vw;
+    }
+    
+}
+@media screen and (max-width:655px) {
+    #portfolio{
+        height: 160vh;
+    }
+    .service-box{
+        height: 60vh;
+    }
+    
+}
